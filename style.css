@@ -1,0 +1,271 @@
+/* Defoult Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.fix-width{
+    width: 1140px;
+    margin: auto;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+/* --------------------------------- */
+/* header Css */
+/* --------------------------------- */
+.header{
+    background-color: #eb2f06;
+
+}
+
+/* ------- */
+
+.header-left{
+    float: left;
+    width: 30%;
+}
+
+.header-left img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* ---------------------- */
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+}
+
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    border-right: 1px solid #ddd;
+    line-height: 60px;
+    transition: .4s;
+   
+}
+.header-right ul li:first-child{
+    border-left: 1px solid #ddd;
+    line-height: 60px;
+}
+.header-right ul li a:hover{
+ background-color: #e84393;
+}
+
+
+
+/* -----------banner------ */
+
+.banner{
+    background: url(../image/header.jpg) rgba(0, 0, 0, 0.815);
+    padding: 140px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-caption{
+
+}
+
+.banner-caption h1{
+    background-color: rgba(0,0,0, 0.6);
+    color: #eb2f06;
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 200%;
+    display: inline-block;
+}
+
+.banner-caption h2{
+    
+    background-color: #d6303098;
+    color: #fff;
+    padding: 14px;
+    font-size: 200%;
+    width: 330px;
+    margin: auto;
+}
+/* =================== */
+/* About Css Section */
+/* ===================== */
+
+.about{
+    text-align: center;
+    margin: 60px 0;
+
+}
+.about h2{
+    
+    width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #eb2f06;
+
+}
+.about p{
+    width: 600px;
+    margin: auto;
+}
+
+
+
+
+/* =================== */
+/* Services Section */
+/* --================== */
+
+.services{
+    padding: 60px 0;
+    background-color: #e8439350;
+}
+.services-item{
+    float: left;
+    width: 31.33%;
+    text-align: center;
+    margin: 0 1%;
+    padding: 35px;
+    background-color: rgba(138, 138, 138, 0.377);
+    border-radius: 5px;
+    color: rgb(32, 32, 32);
+    
+}
+
+.services-item span{
+    background: #eb3006;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 15px 0px;
+    
+    
+}
+
+.services-item h3{
+    padding: 20px 0;
+    color: #e84393;
+    font-size: 150%;
+}
+
+
+/* --------------------------------------blog setion css */
+.blog-continer{
+    margin: 60px 0;
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+}
+.blog-item{
+    margin-bottom: 15px;
+}
+
+.blog-item img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.blog-item p{
+    text-align: justify;
+}
+
+.blog-right-notification{
+    float: right;
+    width: 25%;
+    
+}
+
+.blog-right-notification h2{
+    font-size: 36px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    
+}
+.blog-right-notification ul{
+    list-style: none;
+}
+.blog-right-notification ul li{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+/* foter-menu Css */
+.footer{
+    background-color: rgb(37, 37, 37);
+    color: #eb3006;
+    padding: 30px 0;
+    
+}
+
+/* --------------------- */
+.footer-left{
+    float: left;
+    width: 45%;
+    height: auto;
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+}
+
+/* ---------------------- */
+.footer-right ul{
+    list-style: none;
+    float: right;
+    width: 45%;
+    height: auto;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.footer-right ul li{
+    display: inline-block;
+    float: right;
+}
+
+.footer-right ul li a{
+    display: inline-block;
+    color: #eb3006;
+    margin-right: 30px;
+    font-size: 20px;
+    
+}
+
+/* ------------------- */
